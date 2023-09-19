@@ -1,4 +1,6 @@
 import random 
+from logo import logo           
+
 
 nomes_dinossauros = [
     "Tyrannosaurus rex",
@@ -66,6 +68,7 @@ def partida(vida, pontos):
 
 #escopo do jogo
 def jogo_dinossauros():
+    print(logo)
     vida = 3
     pontos = 0
     print("Bem vindo ao jogo de força dos dinossauros")
